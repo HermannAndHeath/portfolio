@@ -1,0 +1,85 @@
+body
+{
+    font-family: 'lato' sans-serif;
+}
+a
+{
+    color: #fff;
+}
+a:hover
+{
+    color: #BBB !important;
+    text-decoration: none;
+}
+header
+{
+    margin-bottom: 0 !important;
+}
+header .icon-bar
+{
+    border: 1px solid #1A88FA !important;
+}
+.logo-wrapper
+{
+    background: url(./back-city.jpg) no-repeat center top;
+    background-positon: center center;
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+    color: #fff;
+}
+ul.nav a:hover
+{
+    background: none;
+}
+.big-logo
+{
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+}
+.popout-container
+{
+    margin-top: 160px;
+    text-align: center;
+}
+.about-wrapper
+{
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.about-wrapper h2
+{
+    margin-bottom: 30px;
+}
+.about-wrapper p
+{
+    padding: 5px;
+}
+.about-wrapper hr
+{
+    width: 20%;
+}
+.social
+{
+    background-color: #f2f2f2;
+}
+.links-row
+{
+    text-align: center;
+}
+.links-row a
+{
+    color: #4a4a4a;
+    font-size: 40px
+}
+.links-row a:hover
+{
+    color: #6a6a6a;
+}
+footer
+{
+    background: #2f2f2f;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+}
