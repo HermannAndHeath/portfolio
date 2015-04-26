@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- "0.10"
+deploy:
+  provider: s3
+  access_key_id: "AKIAI65OO6SLMZVWYJXQ"
+  secret_access_key:
+    secure: PmVXO2a8j1pSBjO1CkpEb97rCLpIMBEQG11xufvjEpGKnRh0PuKn7WK5OyayRnhFUEZaQNEy9zFeVxMilsAdQaW3Jexy2IuO7GN9lvIuhbWRWqa7RtWExj0OTLAGqLf4hm/EN1MmuBSqAYHHZmlQSPiR1z0q4M+rksWvzq+kgJE=
+  bucket: "www.hermannandheath.com"
+  skip_cleanup: true
+  endpoint: 'www.hermannandheath.com.s3-website-eu-west-1.amazonaws.com'
+  local_dir: dist
+  detect_encoding: true
+  cache_control: "max-age=604800"
