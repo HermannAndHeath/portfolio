@@ -8,11 +8,18 @@ var handleFile = async.compose(writeFile, compressFile, minifyFile);
 
 var loadFiles = require('./lib/loadFiles');
 
-async.waterfall([
+var processFiles = async.apply(async.waterfall, [
     async.apply(loadFiles, './content'),
     function forEachFile(files, callback) {
         async.each(files, handleFile, callback);
     }
+]);
+
+var mkdirp = require('mkdirp');
+
+async.series([
+    mkdirp.bind(mkdirp, './dist'),
+    processFiles
 ], function (err) {
     if (err) {
         throw err;
