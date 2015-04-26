@@ -1,6 +1,8 @@
 language: node_js
 node_js:
 - "0.10"
+script:
+- "node index"
 deploy:
   provider: s3
   access_key_id: "AKIAI65OO6SLMZVWYJXQ"
