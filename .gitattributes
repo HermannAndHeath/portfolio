@@ -1,0 +1,50 @@
+* text=auto
+
+*.scss text
+*.css text
+*.js text
+*.json text
+*.html text
+*.xml text
+*.sql text
+*.txt text
+*.yml text
+
+*.sh text
+
+*.md text
+
+.gitattributes text
+.gitignore text
+.gitconfig text
+
+.eslintignore text
+.eslintrc text
+.bowerrc text
+
+#images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bmp binary
+*.gif binary
+*.ico binary
+*.svg binary
+#fonts
+*.woff binary
+*.eot binary
+*.ttf binary
+#formatted documents
+*.pdf binary
+*.xls binary
+*.xlsx binary
+#other
+*.7z binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.png binary
+*.png binary
+*.png binary
+*.png binary
+*.png binary

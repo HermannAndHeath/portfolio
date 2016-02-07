@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-- "0.10"
+- "4.1"
 script:
-- "node index"
+- "gulp build"
 deploy:
   provider: s3
   access_key_id: "AKIAI65OO6SLMZVWYJXQ"
