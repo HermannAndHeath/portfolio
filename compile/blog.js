@@ -17,7 +17,7 @@ module.exports = () => {
 
     return fs.readFileAsync(filePath, 'utf-8')
       .then(template => {
-        hbs.registerPartial(`{prefix}.${partialName}`, template);
+        hbs.registerPartial(`${prefix}.${partialName}`, template);
       });
   }
 
