@@ -46,7 +46,7 @@ gulp.task('minify', ['compile'], () =>
 gulp.task('build', ['minify', 'minify-css']);
 
 gulp.task('watch', ['build'], () => {
-  gulp.watch('./content/**/*', ['compile']);
+  gulp.watch('./content/**/*', ['build']);
 });
 
 gulp.task('serve', serve({
