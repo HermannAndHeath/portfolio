@@ -7,23 +7,30 @@
   "license": "ISC - 'content' directory excluded.",
   "dependencies": {
     "async": "~0.9.0",
+    "autoprefixer": "^6.6.1",
     "bluebird": "^3.2.2",
+    "bourbon-neat": "^1.8.0",
+    "browser-sync": "^2.18.6",
     "clean-css": "~3.2.5",
+    "cssnano": "^3.10.0",
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^5.0.0",
     "eslint-plugin-react": "^3.16.1",
+    "eyeglass": "^1.2.1",
     "gulp": "^3.9.0",
     "gulp-clean": "^0.3.1",
-    "gulp-cssmin": "^0.1.7",
     "gulp-eslint": "^1.1.1",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^3.0.0",
     "gulp-serve": "^1.2.0",
-    "handlebars": "^4.0.5",
+    "gulp-sourcemaps": "^1.9.1",
+    "handlebars": "^4.0.6",
     "marked": "^0.3.5",
     "minimize": "~1.4.0",
     "mkdirp": "^0.5.1",
+    "normalize-scss": "^6.0.0",
     "recursive-readdir": "^1.2.1"
-  },
-  "devDependencies": {
-    "gulp-htmlmin": "^1.3.0"
   }
 }

@@ -1,1 +1,1 @@
-require('./blog')();
+require('./compileHandlebars')();

@@ -42,7 +42,7 @@ module.exports = () => {
   }
 
   function compilePages() {
-    recurse(path.join(inputDirectory, 'pages'))
+    return recurse(path.join(inputDirectory, 'pages'))
       .then(paths =>
         Promise.each(paths, filePath =>
           compileFile(filePath)
@@ -86,5 +86,5 @@ module.exports = () => {
       });
   }
 
-  return loadLayout().then(loadPartials).then(compilePages).then(compilePosts);
+  return mkdirp(outputDirectory).then(() => loadLayout()).then(loadPartials).then(compilePages).then(compilePosts);
 };
